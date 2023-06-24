@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2506128490460342046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2506128490460342044}
+  - component: {fileID: 2506128490460342045}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2506128490460342044
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506128490460342046}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2506128490460342045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506128490460342046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee948362c9e3d3b489fc82ba04020e0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goodObjects:
+  - {fileID: 2974654405146681952, guid: 684ea20037fd39040b7eba554b413cda, type: 3}
+  - {fileID: 1993066813934248187, guid: 973323979c2eefe4b807c1d965e37e21, type: 3}
+  - {fileID: 1290881053986326405, guid: a9a9cdc655b1ed84b992567f887cd47f, type: 3}
+  - {fileID: 4396491537655195988, guid: d63a4463e50ed804baac0221c5a2f37f, type: 3}
+  badObjects:
+  - {fileID: 3467126198582155759, guid: 400086c20c545964b96c16411fdf5e74, type: 3}
+  - {fileID: 1513980918517066682, guid: 0d358f2fc7dd8404eb105e55aecc14e0, type: 3}
+  - {fileID: 591528059664229478, guid: 5435cc4e65d00e64ea15b4b8d469db57, type: 3}
+  - {fileID: 6134872417282455424, guid: 5ec315480095fdb42b6c12605a1c5d62, type: 3}
+  - {fileID: 1809527311874714523, guid: c0d4d25b06bd40040acb8d6495c246d2, type: 3}
+  - {fileID: 2896527355278309884, guid: 734c342f0c530f440b490af9920e1d83, type: 3}
+  - {fileID: 8289440055516836003, guid: d1ab8f02d034e194a89dc2c315075e29, type: 3}
+  - {fileID: 4589401745176877886, guid: bfaf760e6718ea947932b2d8105c7058, type: 3}
+  minSpawnTime: 3
+  minSpawnTimeChange: 0.06
+  minSpawnTimeClamp: 1.5
+  maxSpawnTime: 12
+  maxSpawnTimeChange: 0.7
+  maxSpawnTimeClamp: 7

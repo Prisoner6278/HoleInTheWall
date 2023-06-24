@@ -1,0 +1,15 @@
+Saved/
+Intermediate/
+DerivedDataCache/
+*.pdb
+obj/
+*.vcxproj
+*.sln
+*-Debug.*
+FileOpenOrder/
+.vs/
+Library/
+Temp/
+Logs/
+*.vsconfig
+*.csproj

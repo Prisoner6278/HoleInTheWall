@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: ec2d31d6b8d25054dbc16e81fb88cc78
+  - enabled: 1
+    path: Assets/Scenes/BucketGame.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/HoleInTheWall.unity
+    guid: 1d1eba7841d347448a27f3eea974a76f
+  - enabled: 1
+    path: Assets/Scenes/ScratchOff.unity
+    guid: 578b30ce01352e040a408db8cfe32c68
+  m_configObjects: {}
